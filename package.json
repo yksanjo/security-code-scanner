@@ -1,11 +1,11 @@
 {
-  "name": "claude-code-review-assistant",
+  "name": "security-code-scanner",
   "version": "1.0.0",
   "type": "module",
-  "description": "A Claude-powered code review assistant that analyzes pull requests and provides thoughtful, context-aware feedback",
+  "description": "Security-focused code scanner - detect vulnerabilities, credentials, and security issues",
   "main": "src/index.js",
   "bin": {
-    "code-review": "./src/index.js"
+    "security-scanner": "./src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",
