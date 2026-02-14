@@ -1,0 +1,33 @@
+{
+  "name": "claude-code-review-assistant",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Claude-powered code review assistant that analyzes pull requests and provides thoughtful, context-aware feedback",
+  "main": "src/index.js",
+  "bin": {
+    "code-review": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "setup": "chmod +x src/index.js"
+  },
+  "keywords": [
+    "code-review",
+    "claude",
+    "pull-request",
+    "github",
+    "static-analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "octokit": "^3.1.2",
+    "simple-git": "^3.22.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
